@@ -1,0 +1,29 @@
+{
+  "name": "SampleFrisbyJS",
+  "version": "1.0.0",
+  "description": "TEST REST API",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harishchandu/ESBFrisbyRESTAPI.git"
+  },
+  "scripts": {
+   	"ci-test": "istanbul cover jasmine-node  --test-dir  D:\Users\hmakkeni\Documents\GitHub\ESBFrsibyRESTProject\SampleFrisbyJS > test.tap && istanbul report clover"
+  },
+  "author": "hmakkeni",
+  "license": "ISC",
+  "dependencies": {
+    "istanbul": "^0.3.17",
+    "jasmine": "^2.3.1",
+    "jsonschema": "^1.0.1",
+    "qs": "^3.1.0",
+    "request": "^2.58.0",
+    "stack-trace": "0.0.9",
+    "underscore": "^1.8.3"
+  },
+  "bugs": {
+    "url": "https://github.com/harishchandu/ESBFrisbyRESTAPI/issues"
+  },
+  "homepage": "https://github.com/harishchandu/ESBFrisbyRESTAPI",
+  "devDependencies": {}
+}
